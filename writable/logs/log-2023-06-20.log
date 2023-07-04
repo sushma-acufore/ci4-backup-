@@ -1,0 +1,390 @@
+CRITICAL - 2023-06-20 04:09:35 --> Cannot redeclare App\Controllers\Order::check_pro_8Weeks()
+in APPPATH\Controllers\Order.php on line 465.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 04:27:05 --> Array to string conversion
+in APPPATH\Controllers\Order.php on line 490.
+ 1 APPPATH\Controllers\Order.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 490)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 04:35:40 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Order.php on line 504.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:01:43 --> syntax error, unexpected single-quoted string "cid", expecting ":"
+in APPPATH\Controllers\Order.php on line 612.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:32:31 --> syntax error, unexpected token "->"
+in APPPATH\Controllers\Order.php on line 617.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:37:09 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:37:24 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:37:31 --> syntax error, unexpected variable "$lprice", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:37:46 --> syntax error, unexpected variable "$lprice", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:37:59 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:38:09 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:38:34 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:40:42 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH\Controllers\Order.php on line 618.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:50:34 --> Undefined variable $db
+in APPPATH\Controllers\Order.php on line 635.
+ 1 APPPATH\Controllers\Order.php(635): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 635)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 05:52:21 --> Undefined variable $row_id
+in APPPATH\Models\Ordermodel.php on line 219.
+ 1 APPPATH\Models\Ordermodel.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row_id', 'C:\\xampp\\htdocs\\cg\\app\\Models\\Ordermodel.php', 219)
+ 2 APPPATH\Controllers\Order.php(635): App\Models\Ordermodel->testupdatemod()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 06:37:08 --> Cannot redeclare App\Models\Ordermodel::upate_product_cart()
+in APPPATH\Models\Ordermodel.php on line 223.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 07:47:10 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH\Controllers\Order.php on line 695.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 07:47:35 --> Unclosed '{' on line 465
+in APPPATH\Controllers\Order.php on line 695.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 07:47:38 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH\Controllers\Order.php on line 695.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 07:49:04 --> Cannot redeclare App\Models\Ordermodel::product_cart_discount_items()
+in APPPATH\Models\Ordermodel.php on line 253.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 09:15:33 --> Redefinition of parameter $discount_8weeks_amount
+in APPPATH\Models\Ordermodel.php on line 253.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 09:16:15 --> Redefinition of parameter $discount_8weeks_amount
+in APPPATH\Models\Ordermodel.php on line 253.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 09:16:29 --> Redefinition of parameter $discount_8weeks_amount
+in APPPATH\Models\Ordermodel.php on line 253.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-20 09:21:26 --> Undefined variable $cid
+in APPPATH\Controllers\Order.php on line 686.
+ 1 APPPATH\Controllers\Order.php(686): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cid', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 686)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:21:38 --> Too few arguments to function App\Controllers\Order::testupdate(), 0 passed in C:\xampp\htdocs\cg\system\CodeIgniter.php on line 934 and exactly 12 expected
+in APPPATH\Controllers\Order.php on line 684.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:35:53 --> Call to a member function execute() on array
+in APPPATH\Controllers\Order.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:36:37 --> Undefined variable $cid
+in APPPATH\Controllers\Order.php on line 704.
+ 1 APPPATH\Controllers\Order.php(704): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cid', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 704)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:36:49 --> Undefined variable $cid
+in APPPATH\Controllers\Order.php on line 704.
+ 1 APPPATH\Controllers\Order.php(704): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cid', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 704)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:42:04 --> syntax error, unexpected single-quoted string "product", expecting "]"
+in APPPATH\Controllers\Order.php on line 690.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 09:42:25 --> Undefined variable $cid
+in APPPATH\Controllers\Order.php on line 704.
+ 1 APPPATH\Controllers\Order.php(704): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cid', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 704)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->testupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:27:12 --> Unknown column 'description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Ordermodel.php(387): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(730): App\Models\Ordermodel->insert_prod_4('TEST2', 'T1001', 'Blade Cylinder for ST330, SS330, & ST440', '510', '1', 408.0, 408.0, 'usd', 408.0, '0')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:28:11 --> Unknown column 'description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Ordermodel.php(387): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(729): App\Models\Ordermodel->insert_prod_4('TEST2', 'T1001', 'Blade Cylinder for ST330, SS330, & ST440', '510', '1', 408.0, 408.0, 'usd', 408.0, '0')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 10:28:52 --> Unknown column 'description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart_discount_items` (`cid`, `product`, `description`, `lprice`, `qty`, `price`, `totalprice`, `currency`, `sp_price`, `discount8weeks_status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Ordermodel.php(387): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(729): App\Models\Ordermodel->insert_prod_4('TEST2', 'T1001', 'Blade Cylinder for ST330, SS330, & ST440', '510', '1', 408.0, 408.0, 'usd', 408.0, '0')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:06:36 --> Undefined property: App\Controllers\Order::$Moreinfo
+in APPPATH\Controllers\Order.php on line 761.
+ 1 APPPATH\Controllers\Order.php(761): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Order::$Moreinfo', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 761)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:10:25 --> Undefined array key "Part_Number"
+in APPPATH\Controllers\Order.php on line 764.
+ 1 APPPATH\Controllers\Order.php(764): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Part_Number"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 764)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:11:53 --> Undefined array key "Part_Number"
+in APPPATH\Controllers\Order.php on line 764.
+ 1 APPPATH\Controllers\Order.php(764): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Part_Number"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 764)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:12:24 --> Undefined array key "Part_Number"
+in APPPATH\Controllers\Order.php on line 764.
+ 1 APPPATH\Controllers\Order.php(764): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Part_Number"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 764)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:13:01 --> Undefined array key "Part_Number"
+in APPPATH\Controllers\Order.php on line 764.
+ 1 APPPATH\Controllers\Order.php(764): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Part_Number"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 764)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:52:39 --> Undefined array key "currency"
+in APPPATH\Controllers\Order.php on line 870.
+ 1 APPPATH\Controllers\Order.php(870): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currency"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 870)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:53:25 --> Undefined array key "currency"
+in APPPATH\Controllers\Order.php on line 870.
+ 1 APPPATH\Controllers\Order.php(870): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currency"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 870)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:56:13 --> Undefined array key "currency"
+in APPPATH\Controllers\Order.php on line 870.
+ 1 APPPATH\Controllers\Order.php(870): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currency"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 870)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:56:55 --> Undefined array key "currency"
+in APPPATH\Controllers\Order.php on line 870.
+ 1 APPPATH\Controllers\Order.php(870): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currency"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 870)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 11:58:47 --> Undefined array key "currency"
+in APPPATH\Controllers\Order.php on line 870.
+ 1 APPPATH\Controllers\Order.php(870): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currency"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 870)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:00:05 --> Undefined array key "currency"
+in APPPATH\Controllers\Order.php on line 870.
+ 1 APPPATH\Controllers\Order.php(870): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "currency"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 870)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:02:00 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 882.
+ 1 APPPATH\Controllers\Order.php(882): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 882)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:02:33 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 883.
+ 1 APPPATH\Controllers\Order.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:08:31 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 882.
+ 1 APPPATH\Controllers\Order.php(882): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 882)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:12:25 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 884.
+ 1 APPPATH\Controllers\Order.php(884): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 884)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:44:40 --> syntax error, unexpected variable "$cid", expecting ")"
+in APPPATH\Controllers\Order.php on line 911.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:44:59 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 885.
+ 1 APPPATH\Controllers\Order.php(885): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 885)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:47:28 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 885.
+ 1 APPPATH\Controllers\Order.php(885): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 885)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:50:14 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 885.
+ 1 APPPATH\Controllers\Order.php(885): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 885)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 12:53:53 --> Undefined array key "qty"
+in APPPATH\Controllers\Order.php on line 885.
+ 1 APPPATH\Controllers\Order.php(885): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 885)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

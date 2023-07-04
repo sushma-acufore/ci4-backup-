@@ -1,0 +1,1091 @@
+CRITICAL - 2023-06-14 04:17:50 --> Invalid file: "headers/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headers/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('headers/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('headers/header')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:18:55 --> Invalid file: "headers/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('headers/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('headers/header', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('headers/header')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:45:51 --> Class "Config\Databaseodbc" not found
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:46:21 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:52 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:53 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:53 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:53 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:54 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:54 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:54 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:54 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:54 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:55 --> Class "CodeIgniter\Database\ODBC Driver 17for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:58 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:58 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:58 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:59 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:59 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:59 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:59 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:47:59 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:48:00 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:48:00 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:22 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect('test')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:23 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect('test')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:23 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect('test')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:23 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect('test')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:23 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect('test')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:24 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect('test')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:40 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:40 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:41 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:41 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:41 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:41 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:41 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:42 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:42 --> test is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 07:49:53 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'tests')
+ 3 APPPATH\Models\Usermodel.php(16): CodeIgniter\Database\Config::connect()
+ 4 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:09:37 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:09:54 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 17.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:09:55 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 17.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:09:55 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 17.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:10:33 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:10:34 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:10:34 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:10:34 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:10:34 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:10:34 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:53:42 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:53:43 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:53:43 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:53:43 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:02 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:03 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:03 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:03 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:20 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:57 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:57 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:57 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:58 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:58 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:58 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:58 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:54:58 --> Call to undefined method Config\Database::odbc_connect()
+in APPPATH\Models\Usermodel.php on line 16.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:55:56 --> Class "App\Models\PDO" not found
+in APPPATH\Models\Usermodel.php on line 27.
+ 1 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:56:12 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 29.
+ 1 APPPATH\Models\Usermodel.php(29): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:56:47 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 29.
+ 1 APPPATH\Models\Usermodel.php(29): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:56:48 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 29.
+ 1 APPPATH\Models\Usermodel.php(29): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:56:48 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 29.
+ 1 APPPATH\Models\Usermodel.php(29): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:56:49 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 29.
+ 1 APPPATH\Models\Usermodel.php(29): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 09:56:49 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 29.
+ 1 APPPATH\Models\Usermodel.php(29): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:03:37 --> Undefined variable $server
+in APPPATH\Models\Usermodel.php on line 22.
+ 1 APPPATH\Models\Usermodel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $server', 'D:\\xampp\\htdocs\\Baumalight\\cg\\app\\Models\\Usermodel.php', 22)
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:03:52 --> Undefined variable $server
+in APPPATH\Models\Usermodel.php on line 19.
+ 1 APPPATH\Models\Usermodel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $server', 'D:\\xampp\\htdocs\\Baumalight\\cg\\app\\Models\\Usermodel.php', 19)
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:11:28 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:11:46 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:07 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:07 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:08 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:08 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:08 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:08 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 36.
+ 1 APPPATH\Models\Usermodel.php(36): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:27 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 37.
+ 1 APPPATH\Models\Usermodel.php(37): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:28 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 37.
+ 1 APPPATH\Models\Usermodel.php(37): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:28 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 37.
+ 1 APPPATH\Models\Usermodel.php(37): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:29 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 37.
+ 1 APPPATH\Models\Usermodel.php(37): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:12:29 --> PDO::__construct(): Argument #1 ($dsn) must be a valid data source name
+in APPPATH\Models\Usermodel.php on line 37.
+ 1 APPPATH\Models\Usermodel.php(37): PDO->__construct('Driver={ODBC Driver 17 for SQL Server};Server=$server;Database=$database;", $user, $password', 'admin', 'the2eS9t')
+ 2 APPPATH\Controllers\User.php(17): App\Models\Usermodel->odbcData()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:52:53 --> Call to a member function connect() on null
+in APPPATH\Models\Usermodel.php on line 11.
+ 1 APPPATH\Controllers\User.php(10): App\Models\Usermodel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\User->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:53:04 --> Call to a member function db_connect() on null
+in APPPATH\Models\Usermodel.php on line 11.
+ 1 APPPATH\Controllers\User.php(10): App\Models\Usermodel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\User->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:14 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:14 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:15 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:15 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:15 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:15 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:16 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:06:16 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('odbc', 'CodeIgniter\\Database\\odbc\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:17 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:18 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:18 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:18 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:18 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:19 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:07:19 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:19 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:19 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:20 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:20 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:20 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:20 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:20 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:30:21 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Usermodel.php(17): db_connect()
+ 5 APPPATH\Controllers\User.php(17): App\Models\Usermodel->testodbc()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:43:08 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Controllers\Order.php(22): db_connect()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:44:01 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Controllers\Order.php(22): db_connect()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:44:02 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Controllers\Order.php(22): db_connect()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:44:02 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Controllers\Order.php(22): db_connect()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:45:24 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Ordermodel.php(15): db_connect()
+ 5 APPPATH\Controllers\Order.php(22): App\Models\Ordermodel->getconn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:45:25 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Ordermodel.php(15): db_connect()
+ 5 APPPATH\Controllers\Order.php(22): App\Models\Ordermodel->getconn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:46:15 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Ordermodel.php(15): db_connect()
+ 5 APPPATH\Controllers\Order.php(22): App\Models\Ordermodel->getconn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:46:16 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Ordermodel.php(15): db_connect()
+ 5 APPPATH\Controllers\Order.php(22): App\Models\Ordermodel->getconn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 12:46:16 --> Class "CodeIgniter\Database\ODBC Driver 17 for SQL Server\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('ODBC Driver 17 for SQL Server', 'CodeIgniter\\Database\\ODBC Driver 17 for SQL Server\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'odbc')
+ 3 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('odbc', true)
+ 4 APPPATH\Models\Ordermodel.php(15): db_connect()
+ 5 APPPATH\Controllers\Order.php(22): App\Models\Ordermodel->getconn()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->refresh_basket()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

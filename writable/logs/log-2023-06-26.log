@@ -1,0 +1,65 @@
+CRITICAL - 2023-06-26 04:05:43 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Order.php on line 2233.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:05:45 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Order.php on line 2233.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:05:46 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Order.php on line 2233.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:05:46 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Order.php on line 2233.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:05:47 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Order.php on line 2233.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:12:32 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 2235.
+ 1 APPPATH\Controllers\Order.php(2235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 2235)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:34:11 --> Undefined array key "E_FULL_NAME"
+in APPPATH\Controllers\Order.php on line 2268.
+ 1 APPPATH\Controllers\Order.php(2268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "E_FULL_NAME"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 2268)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:34:13 --> Undefined array key "E_FULL_NAME"
+in APPPATH\Controllers\Order.php on line 2268.
+ 1 APPPATH\Controllers\Order.php(2268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "E_FULL_NAME"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 2268)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:34:15 --> Undefined array key "E_FULL_NAME"
+in APPPATH\Controllers\Order.php on line 2268.
+ 1 APPPATH\Controllers\Order.php(2268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "E_FULL_NAME"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 2268)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 04:34:15 --> Undefined array key "E_FULL_NAME"
+in APPPATH\Controllers\Order.php on line 2268.
+ 1 APPPATH\Controllers\Order.php(2268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "E_FULL_NAME"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 2268)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->save_stock_dealer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

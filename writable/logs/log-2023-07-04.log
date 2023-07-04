@@ -1,0 +1,115 @@
+CRITICAL - 2023-07-04 04:00:39 --> Undefined variable $is_stock_dealer
+in APPPATH\Controllers\MoreInfo\ProductInfoController.php on line 174.
+ 1 APPPATH\Controllers\MoreInfo\ProductInfoController.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $is_stock_dealer', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\ProductInfoController.php', 174)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 04:05:40 --> Undefined array key "part_no"
+in APPPATH\Controllers\MoreInfo\ProductInfoController.php on line 22.
+ 1 APPPATH\Controllers\MoreInfo\ProductInfoController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "part_no"', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\ProductInfoController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 04:31:24 --> Call to undefined function App\Controllers\Preview\send_mail_customer()
+in APPPATH\Controllers\Preview\PreviewController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 04:49:05 --> Undefined array key "a"
+in APPPATH\Controllers\Cart\ShippingAddressController.php on line 78.
+ 1 APPPATH\Controllers\Cart\ShippingAddressController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "a"', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\ShippingAddressController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\ShippingAddressController->get_ship_address_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\ShippingAddressController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 04:56:26 --> Undefined array key "a"
+in APPPATH\Controllers\Cart\ShippingAddressController.php on line 78.
+ 1 APPPATH\Controllers\Cart\ShippingAddressController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "a"', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\ShippingAddressController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\ShippingAddressController->get_ship_address_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\ShippingAddressController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:03:32 --> Undefined array key "a"
+in APPPATH\Controllers\Cart\ShippingAddressController.php on line 78.
+ 1 APPPATH\Controllers\Cart\ShippingAddressController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "a"', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\ShippingAddressController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\ShippingAddressController->get_ship_address_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\ShippingAddressController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:11:12 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Preview\PreviewController.php on line 283.
+ 1 APPPATH\Controllers\Preview\PreviewController.php(283): number_format('44,894.09', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:15:11 --> Undefined array key "a"
+in APPPATH\Controllers\Cart\ShippingAddressController.php on line 78.
+ 1 APPPATH\Controllers\Cart\ShippingAddressController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "a"', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\ShippingAddressController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\ShippingAddressController->get_ship_address_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\ShippingAddressController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:16:46 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Preview\PreviewController.php on line 283.
+ 1 APPPATH\Controllers\Preview\PreviewController.php(283): number_format('44,894.09', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:17:22 --> Undefined array key "a"
+in APPPATH\Controllers\Cart\ShippingAddressController.php on line 78.
+ 1 APPPATH\Controllers\Cart\ShippingAddressController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "a"', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\ShippingAddressController.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\ShippingAddressController->get_ship_address_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\ShippingAddressController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:19:31 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Preview\PreviewController.php on line 284.
+ 1 APPPATH\Controllers\Preview\PreviewController.php(284): number_format('44,894.09', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:19:52 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Preview\PreviewController.php on line 284.
+ 1 APPPATH\Controllers\Preview\PreviewController.php(284): number_format('44,894.09', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:20:40 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Preview\PreviewController.php on line 284.
+ 1 APPPATH\Controllers\Preview\PreviewController.php(284): number_format('44,894.09', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:46:54 --> Invalid file: "https://baumalight.acufore.com/login/en/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('https://baumalight.acufore.com/login/en/login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('https://baumalight.acufore.com/login/en/login.php', [], true)
+ 3 APPPATH\Controllers\Header\HeaderController.php(136): view('https://baumalight.acufore.com/login/en/login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:50:03 --> The route for "https://baumalight.acufore.com/login/en/login.php" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://baumalight.acufore.com/login/en/login.php')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Header\HeaderController.php(136): redirect('https://baumalight.acufore.com/login/en/login.php', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 05:55:01 --> Undefined variable $session
+in APPPATH\Controllers\Header\HeaderController.php on line 136.
+ 1 APPPATH\Controllers\Header\HeaderController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Header\\HeaderController.php', 136)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

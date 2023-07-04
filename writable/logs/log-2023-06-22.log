@@ -1,0 +1,1223 @@
+CRITICAL - 2023-06-22 04:36:25 --> Cannot declare class App\Controllers\MoreInfo because the name is already in use
+in APPPATH\Controllers\MoreInfo.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-22 04:40:30 --> Undefined property: App\Controllers\MoreInfoController::$ordermodel
+in APPPATH\Controllers\MoreInfoController.php on line 220.
+ 1 APPPATH\Controllers\MoreInfoController.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MoreInfoController::$ordermodel', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\MoreInfoController.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MoreInfoController->check_pro_8Weeks()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MoreInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 04:41:51 --> Undefined property: App\Controllers\MoreInfoController::$ordermodel
+in APPPATH\Controllers\MoreInfoController.php on line 220.
+ 1 APPPATH\Controllers\MoreInfoController.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MoreInfoController::$ordermodel', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\MoreInfoController.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MoreInfoController->check_pro_8Weeks()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MoreInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 05:41:56 --> Class "Ordermodel" not found
+in APPPATH\Views\order\myorders.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(260): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 05:42:11 --> Call to undefined method App\Models\Ordermodel::getebms_order1()
+in APPPATH\Views\order\myorders.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(260): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 05:42:32 --> Call to undefined method App\Models\Ordermodel::getebms_order1()
+in APPPATH\Views\order\myorders.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(260): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 05:45:54 --> Undefined array key "AUTOID"
+in APPPATH\Controllers\Order.php on line 261.
+ 1 APPPATH\Controllers\Order.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "AUTOID"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 261)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 05:48:55 --> Call to undefined method App\Models\Ordermodel::getebms_order2()
+in APPPATH\Controllers\Order.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:28:50 --> Undefined variable $slno
+in APPPATH\Controllers\Order.php on line 278.
+ 1 APPPATH\Controllers\Order.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slno', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 278)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:36:45 --> Undefined variable $date_time
+in APPPATH\Controllers\Order.php on line 289.
+ 1 APPPATH\Controllers\Order.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date_time', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:37:10 --> Undefined variable $check_items
+in APPPATH\Views\order\myorders.php on line 28.
+ 1 APPPATH\Views\order\myorders.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check_items', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(300): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:40:07 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 29.
+ 1 APPPATH\Views\order\myorders.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:44:31 --> Unclosed '{' on line 28
+in APPPATH\Views\order\myorders.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:44:46 --> Undefined variable $slno
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slno', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:45:57 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:47:18 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:47:22 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:47:36 --> Attempt to read property "AUTOID" on int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "AUTOID" on int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(299): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 06:58:24 --> syntax error, unexpected token "exit"
+in APPPATH\Controllers\Order.php on line 277.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:03:54 --> Undefined variable $row
+in APPPATH\Controllers\Order.php on line 265.
+ 1 APPPATH\Controllers\Order.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:04:05 --> Undefined array key "AUTOID"
+in APPPATH\Controllers\Order.php on line 265.
+ 1 APPPATH\Controllers\Order.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "AUTOID"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:31:48 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 293.
+ 1 APPPATH\Controllers\Order.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:32:39 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 291.
+ 1 APPPATH\Controllers\Order.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:34:41 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\Order.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:36:37 --> Undefined array key "AUTOID"
+in APPPATH\Controllers\Order.php on line 264.
+ 1 APPPATH\Controllers\Order.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "AUTOID"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 264)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:43:19 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(294): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:44:09 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(294): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:44:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 33.
+ 1 APPPATH\Views\order\myorders.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(294): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:45:10 --> Undefined variable $data
+in APPPATH\Views\order\myorders.php on line 28.
+ 1 APPPATH\Views\order\myorders.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(294): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:45:19 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 33.
+ 1 APPPATH\Views\order\myorders.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(294): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:50:36 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(297): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:51:05 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:51:18 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:51:43 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:52:16 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(300): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:53:56 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(297): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:55:03 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 289.
+ 1 APPPATH\Controllers\Order.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:56:05 --> Cannot access offset of type string on string
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(286): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:57:01 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\cg\app\Controllers\Order.php on line 286
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Order.php(286): view('order/myorders', '34,547.00')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:57:06 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\cg\app\Controllers\Order.php on line 286
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Order.php(286): view('order/myorders', '34,547.00')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:58:11 --> Undefined variable $totalprice
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 APPPATH\Views\order\myorders.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(286): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:59:55 --> Cannot access offset of type string on string
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(288): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:00:38 --> Cannot access offset of type string on string
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(288): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:00:55 --> Cannot access offset of type string on string
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(289): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:01:14 --> Cannot access offset of type string on string
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(289): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:01:24 --> Cannot access offset of type string on string
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 4 APPPATH\Controllers\Order.php(289): view('order/myorders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:01:41 --> Undefined variable $totalprice
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(289): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:02:54 --> Undefined variable $totalprice
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(296): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:03:19 --> syntax error, unexpected token "echo", expecting "]"
+in APPPATH\Controllers\Order.php on line 288.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:03:36 --> Undefined variable $totalprice
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(297): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:03:46 --> Undefined variable $totalprice
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalprice', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(294): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:06:50 --> Undefined variable $slno
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slno', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:06 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:22 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:24 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:24 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:25 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:25 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:35 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:08:24 --> Attempt to read property "INVOICE" on array
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "INVOICE" on array', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:08:30 --> Attempt to read property "INVOICE" on array
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "INVOICE" on array', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:08:43 --> Attempt to read property "INVOICE" on array
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "INVOICE" on array', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:08:57 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:09:01 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:09:09 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:10:34 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:10:46 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 32.
+ 1 APPPATH\Views\order\myorders.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:13:03 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:14:29 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 298.
+ 1 APPPATH\Controllers\Order.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:14:38 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 31.
+ 1 APPPATH\Views\order\myorders.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:19:50 --> Undefined variable $ee
+in APPPATH\Views\order\myorders.php on line 28.
+ 1 APPPATH\Views\order\myorders.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ee', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:20:03 --> Undefined variable $date_time
+in APPPATH\Views\order\myorders.php on line 81.
+ 1 APPPATH\Views\order\myorders.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date_time', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:20:39 --> Undefined variable $date_time
+in APPPATH\Views\order\myorders.php on line 81.
+ 1 APPPATH\Views\order\myorders.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date_time', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:20:41 --> Undefined variable $date_time
+in APPPATH\Views\order\myorders.php on line 81.
+ 1 APPPATH\Views\order\myorders.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date_time', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:21:15 --> Invalid file: "order/myordersitemsview.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order/myordersitemsview.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 3 APPPATH\Controllers\Order.php(303): view('order/myordersitemsview')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders_itemsview()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:22:41 --> Call to undefined method App\Models\Ordermodel::getebms_order_one()
+in APPPATH\Views\order\myordersitemsview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 4 APPPATH\Controllers\Order.php(303): view('order/myordersitemsview')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders_itemsview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:23:29 --> Cannot redeclare App\Models\Ordermodel::getebms_order2()
+in APPPATH\Models\Ordermodel.php on line 233.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-22 09:23:44 --> Cannot redeclare App\Models\Ordermodel::getebms_order2a()
+in APPPATH\Models\Ordermodel.php on line 234.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-22 09:25:17 --> Call to undefined method App\Models\Ordermodel::getebms_order_one()
+in APPPATH\Views\order\myordersitemsview.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 4 APPPATH\Controllers\Order.php(303): view('order/myordersitemsview')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders_itemsview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:26:25 --> Call to undefined method App\Models\Ordermodel::getebms_order_one()
+in APPPATH\Views\order\myordersitemsview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 4 APPPATH\Controllers\Order.php(303): view('order/myordersitemsview')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders_itemsview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:26:28 --> Call to undefined method App\Models\Ordermodel::getebms_order_one()
+in APPPATH\Views\order\myordersitemsview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 4 APPPATH\Controllers\Order.php(303): view('order/myordersitemsview')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders_itemsview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:27:37 --> Call to undefined method App\Models\Ordermodel::getebms_order_one()
+in APPPATH\Views\order\myordersitemsview.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 4 APPPATH\Controllers\Order.php(303): view('order/myordersitemsview')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders_itemsview()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:34:07 --> Unclosed '{' on line 28
+in APPPATH\Views\order\myorders.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(298): view('order/myorders')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:34:19 --> Undefined variable $ee
+in APPPATH\Views\order\myorders.php on line 28.
+ 1 APPPATH\Views\order\myorders.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ee', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:35:16 --> syntax error, unexpected token "}"
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:35:24 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 APPPATH\Views\order\myorders.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:36:09 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\order\myorders.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:36:19 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\order\myorders.php on line 33.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:36:26 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\order\myorders.php on line 33.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:38:18 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\order\myorders.php on line 33.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 3 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:40:10 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 APPPATH\Views\order\myorders.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:40:40 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 APPPATH\Views\order\myorders.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:40:45 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 APPPATH\Views\order\myorders.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:40:56 --> Trying to access array offset on value of type int
+in APPPATH\Views\order\myorders.php on line 30.
+ 1 APPPATH\Views\order\myorders.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:55:06 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 298.
+ 1 APPPATH\Controllers\Order.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:55:24 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 298.
+ 1 APPPATH\Controllers\Order.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:56:02 --> view(): Argument #2 ($data) must be of type array, int given, called in C:\xampp\htdocs\cg\app\Controllers\Order.php on line 298
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Order.php(298): view('order/myorders', 10, '', '', '31-05-2023', 1, '34,547.00')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:57:13 --> view(): Argument #2 ($data) must be of type array, int given, called in C:\xampp\htdocs\cg\app\Controllers\Order.php on line 298
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Order.php(298): view('order/myorders', 20, '', '', '31-05-2023', 1, '34,547.00')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:57:32 --> Undefined variable $ee
+in APPPATH\Views\order\myorders.php on line 28.
+ 1 APPPATH\Views\order\myorders.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ee', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(298): view('order/myorders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:01:07 --> Undefined variable $data
+in APPPATH\Controllers\Order.php on line 298.
+ 1 APPPATH\Controllers\Order.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:03:46 --> syntax error, unexpected token "?"
+in APPPATH\Controllers\Order.php on line 300.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:03:56 --> syntax error, unexpected token "?"
+in APPPATH\Controllers\Order.php on line 300.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:09:32 --> Undefined variable $date_time
+in APPPATH\Views\order\myorders.php on line 81.
+ 1 APPPATH\Views\order\myorders.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date_time', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myorders.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myorders', [], true)
+ 5 APPPATH\Controllers\Order.php(258): view('order/myorders')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->my_orders()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:24:09 --> Invalid file: "order/previeworder/previeworder.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order/previeworder/previeworder.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/previeworder/previeworder', [], true)
+ 3 APPPATH\Controllers\Order.php(1203): view('order/previeworder/previeworder')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->preview_order()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:26:14 --> Undefined array key "SalesOrder_result"
+in APPPATH\Views\order\previeworder\previeworder.php on line 17.
+ 1 APPPATH\Views\order\previeworder\previeworder.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SalesOrder_result"', 'C:\\xampp\\htdocs\\cg\\app\\Views\\order\\previeworder\\previeworder.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\previeworder\\previeworder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/previeworder/previeworder', [], true)
+ 5 APPPATH\Controllers\Order.php(1203): view('order/previeworder/previeworder')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->preview_order()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:57:37 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Order.php on line 1478.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:58:30 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Order.php on line 1440.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:58:39 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Order.php on line 1440.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:16:11 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1460.
+ 1 APPPATH\Controllers\Order.php(1460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1460)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_refresh()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:16:43 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1460.
+ 1 APPPATH\Controllers\Order.php(1460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1460)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_refresh()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:25:30 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 551.
+ 1 APPPATH\Controllers\Order.php(551): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 551)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:25:48 --> Unknown column 'cart_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Moreinfo.php(145): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(502): App\Models\Moreinfo->insert_product_cart_discount_items(true, 'TEST2', 'T2002', 'DISCOUNT 8 PERCENT', '8.00', 3.6216000000000004)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_ind()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:28:07 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 551.
+ 1 APPPATH\Controllers\Order.php(551): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 551)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:57:42 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1754.
+ 1 APPPATH\Controllers\Order.php(1754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1754)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:58:23 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1754.
+ 1 APPPATH\Controllers\Order.php(1754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1754)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:59:02 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1754.
+ 1 APPPATH\Controllers\Order.php(1754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1754)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:59:36 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1754.
+ 1 APPPATH\Controllers\Order.php(1754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1754)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:59:57 --> Unknown column 'cart_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Moreinfo.php(145): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(1705): App\Models\Moreinfo->insert_product_cart_discount_items(true, 'TEST2', 'T1006', 'DISCOUNT 8 PERCENT', '8.00', 14.708800000000002)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_ind()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:00:24 --> Undefined variable $conn
+in APPPATH\Controllers\Order.php on line 1754.
+ 1 APPPATH\Controllers\Order.php(1754): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1754)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:01:21 --> Undefined variable $num_rows1
+in APPPATH\Controllers\Order.php on line 1752.
+ 1 APPPATH\Controllers\Order.php(1752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num_rows1', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1752)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:01:39 --> Undefined variable $num_rows1
+in APPPATH\Controllers\Order.php on line 1752.
+ 1 APPPATH\Controllers\Order.php(1752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num_rows1', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1752)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:04:47 --> Undefined variable $num_rows1
+in APPPATH\Controllers\Order.php on line 1752.
+ 1 APPPATH\Controllers\Order.php(1752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num_rows1', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1752)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:11:10 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Order.php on line 1461.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:13:07 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Order.php on line 1768.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:13:15 --> Unknown column 'cart_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Moreinfo.php(145): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(1721): App\Models\Moreinfo->insert_product_cart_discount_items(true, 'TEST2', 'T2000', 'DISCOUNT 8 PERCENT', '8.00', 54.4)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_ind()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:14:55 --> Unknown column 'cart_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Moreinfo.php(145): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(1721): App\Models\Moreinfo->insert_product_cart_discount_items(true, 'TEST2', 'T2000', 'DISCOUNT 8 PERCENT', '8.00', 54.4)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_ind()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:17:06 --> Unknown column 'cart_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Moreinfo.php(145): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(1721): App\Models\Moreinfo->insert_product_cart_discount_items(true, 'TEST2', 'T2000', 'DISCOUNT 8 PERCENT', '8.00', 54.4)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_ind()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:26:45 --> Undefined array key "id"
+in APPPATH\Controllers\Order.php on line 1793.
+ 1 APPPATH\Controllers\Order.php(1793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:27:12 --> Undefined array key "id"
+in APPPATH\Controllers\Order.php on line 1793.
+ 1 APPPATH\Controllers\Order.php(1793): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php', 1793)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:33:41 --> Unmatched '}'
+in APPPATH\Controllers\Order.php on line 1923.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Controllers\\Order.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Order')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Order')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Order', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:44:51 --> Unknown column 'cart_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `product_cart` (`cart_id`, `cid`, `product`, `discount_name`, `discount`, `discount_price`, `total_discount_price`) VALUES (?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Moreinfo.php(145): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Order.php(1721): App\Models\Moreinfo->insert_product_cart_discount_items(true, 'TEST2', 'T1001', 'DISCOUNT 8 PERCENT', '8.00', 32.64)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->add_to_cart_ind()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

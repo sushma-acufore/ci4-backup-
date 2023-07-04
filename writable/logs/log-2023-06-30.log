@@ -1,0 +1,406 @@
+CRITICAL - 2023-06-30 04:54:01 --> Undefined variable $check_desc_items
+in APPPATH\Controllers\MoreInfo\ProductInfoController.php on line 42.
+ 1 APPPATH\Controllers\MoreInfo\ProductInfoController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check_desc_items', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\ProductInfoController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 05:25:31 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddToCartController.php on line 163.
+ 1 APPPATH\Controllers\MoreInfo\AddToCartController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddToCartController.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:37:12 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Controllers\StockRegister\StockRegisterController.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\StockRegister\\StockRegisterController.php', 76)
+ 2 APPPATH\Controllers\StockRegister\StockRegisterController.php(76): mail('akshay.j@acufore.com', 'Request for Stock Dealer - Brian Mullen', '<html></body><div></br></br>Requesting to upgrade as Stock Dealer, please find the details below.<br><br><div style=\'padding-top:8px;\'></div>     
+          <div style=\'padding-top:10px;\'><table style=\'width:80%\'><tr style=\'border:1px solid gray;\'><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;font-weight:bold;width:20%\'>Name of the Requester </td><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;\'>SUSHMA</td></tr><tr style=\'border:1px solid gray;\'><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;font-weight:bold;width:20%\'>Email ID </td><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;\'>sushma.n@acufore.com</td></tr><tr style=\'border:1px solid gray;\'><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;font-weight:bold;width:20%\'>Part Number </td><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;\'>TRL620D</td></tr><tr style=\'border:1px solid gray;\'><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;font-weight:bold;width:20%\'>Intended Stocking Quantity </td><td style=\'border:1px solid gray;border-collapse:collapse;padding:5px;\'>3</td></tr></table></div>      
+          </div>
+          </body></html>', 'MIME-Version: 1.0
+Content-type:text/html;charset=UTF-8
+From: <sushma.n@acufore.com>
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StockRegister\StockRegisterController->save_stock_dealer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StockRegister\StockRegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:53:41 --> Undefined variable $conn
+in APPPATH\Controllers\MoreInfo\ProductInfoController.php on line 116.
+ 1 APPPATH\Controllers\MoreInfo\ProductInfoController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\ProductInfoController.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:58:50 --> Class "Ordermodel" not found
+in APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/moreinfo/moreinfo', [], true)
+ 4 APPPATH\Controllers\MoreInfo\ProductInfoController.php(202): view('onlineorder/content/moreinfo/moreinfo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 06:59:17 --> Undefined variable $part_no
+in APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php on line 99.
+ 1 APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $part_no', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Views\\onlineorder\\content\\moreinfo\\moreinfo.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Views\\onlineorder\\content\\moreinfo\\moreinfo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/moreinfo/moreinfo', [], true)
+ 5 APPPATH\Controllers\MoreInfo\ProductInfoController.php(202): view('onlineorder/content/moreinfo/moreinfo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:01:47 --> Call to a member function getNumRows() on resource
+in APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php on line 100.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/moreinfo/moreinfo', [], true)
+ 4 APPPATH\Controllers\MoreInfo\ProductInfoController.php(202): view('onlineorder/content/moreinfo/moreinfo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:04:07 --> Call to a member function getNumRows() on resource
+in APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php on line 101.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/moreinfo/moreinfo', [], true)
+ 4 APPPATH\Controllers\MoreInfo\ProductInfoController.php(202): view('onlineorder/content/moreinfo/moreinfo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:30:32 --> Unclosed '{' on line 7
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 357.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 07:59:47 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 365.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:00:51 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 366.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:02:13 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 366.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:04:47 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 368.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:05:54 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 368.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:06:53 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 368.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:09:42 --> Undefined property: App\Controllers\Moreinfo\AddRecommendedProductController::$addtocart
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 76.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Moreinfo\\AddRecommendedProductController::$addtocart', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:10:37 --> Undefined property: App\Controllers\Moreinfo\AddRecommendedProductController::$add_recommended_product
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 146.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Moreinfo\\AddRecommendedProductController::$add_recommended_product', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 08:59:37 --> Undefined property: App\Controllers\Moreinfo\AddRecommendedProductController::$add_recommended_product
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 212.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Moreinfo\\AddRecommendedProductController::$add_recommended_product', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:01:06 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 367.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MoreInfo\\AddRecommendedProductController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\MoreInfo\\AddRecommendedProductController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:03:01 --> Undefined property: App\Controllers\Moreinfo\AddRecommendedProductController::$add_recommended_product
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 144.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Moreinfo\\AddRecommendedProductController::$add_recommended_product', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 144)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:13:59 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:14:13 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:15:12 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:15:51 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 197.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:16:25 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 197.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:16:50 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 197.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:19:23 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 197.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:20:27 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 197.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:23:42 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 199.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:26:53 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 195.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:28:01 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:00 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:30:24 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:31:53 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 196.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 09:32:33 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 193.
+ 1 APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\MoreInfo\\AddRecommendedProductController.php', 193)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddRecommendedProductController->add_to_cart_by_more_info()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddRecommendedProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:39:56 --> Array to string conversion
+in APPPATH\Controllers\Search\CartAppendController.php on line 20.
+ 1 APPPATH\Controllers\Search\CartAppendController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Search\\CartAppendController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search\CartAppendController->cart_append()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search\CartAppendController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:48:24 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:48:47 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:48:51 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:51:56 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 10:52:52 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:11:13 --> Array to string conversion
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 166.
+ 1 APPPATH\Controllers\Cart\RefreshCartController.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\RefreshCartController.php', 166)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:12:04 --> Array to string conversion
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 168.
+ 1 APPPATH\Controllers\Cart\RefreshCartController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\RefreshCartController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:13:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 168.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:31:15 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Cart\RefreshCartController.php on line 160.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\RefreshCartController->refresh_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\RefreshCartController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:32:58 --> Class "App\Controllers\Cart\UpdateCartItems" not found
+in APPPATH\Controllers\Cart\UpdateCartItemsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\UpdateCartItemsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:35:18 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:35:19 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:35:20 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:35:21 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:35:22 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:35:28 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 11:38:11 --> Class "App\Models\SavePreviewDetails" not found
+in APPPATH\Controllers\Cart\SavePreviewDetailsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Cart\SavePreviewDetailsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:01:00 --> Undefined array key 0
+in APPPATH\Controllers\Cart\SetSessionPoController.php on line 51.
+ 1 APPPATH\Controllers\Cart\SetSessionPoController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\SetSessionPoController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\SetSessionPoController->set_session_po()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\SetSessionPoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 13:01:36 --> Undefined array key 0
+in APPPATH\Controllers\Cart\SetSessionPoController.php on line 51.
+ 1 APPPATH\Controllers\Cart\SetSessionPoController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\Baumalight\\cg\\app\\Controllers\\Cart\\SetSessionPoController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\SetSessionPoController->set_session_po()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\SetSessionPoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

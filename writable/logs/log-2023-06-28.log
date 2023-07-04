@@ -1,0 +1,457 @@
+CRITICAL - 2023-06-28 03:58:24 --> include_once(onlineorder/components/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\onlineorder\content\search\search.php on line 1.
+ 1 APPPATH\Views\onlineorder\content\search\search.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(onlineorder/components/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php', 1)
+ 2 APPPATH\Views\onlineorder\content\search\search.php(1): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:01:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\Views\onlineorder\content\search\search.php on line 149.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-28 04:02:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\Views\onlineorder\content\search\search.php on line 149.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-28 04:02:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\Views\onlineorder\content\search\search.php on line 149.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-28 04:03:02 --> include_once(onlineorder/components/headercomponents/preloadsession.php): Failed to open stream: No such file or directory
+in APPPATH\Views\onlineorder\components\header.php on line 50.
+ 1 APPPATH\Views\onlineorder\components\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(onlineorder/components/headercomponents/preloadsession.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php', 50)
+ 2 APPPATH\Views\onlineorder\components\header.php(50): include_once()
+ 3 APPPATH\Views\onlineorder\content\search\search.php(1): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 7 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:03:55 --> Class "Ordermodel" not found
+in APPPATH\Views\onlineorder\components\headercomponents\preloadsession.php on line 46.
+ 1 APPPATH\Views\onlineorder\components\header.php(51): include()
+ 2 APPPATH\Views\onlineorder\content\search\search.php(1): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:04:25 --> include_once(onlineorder/components/navbar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\onlineorder\components\header.php on line 53.
+ 1 APPPATH\Views\onlineorder\components\header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(onlineorder/components/navbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php', 53)
+ 2 APPPATH\Views\onlineorder\components\header.php(53): include_once()
+ 3 APPPATH\Views\onlineorder\content\search\search.php(1): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 7 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:04:58 --> Class "Ordermodel" not found
+in APPPATH\Views\onlineorder\components\navbar.php on line 43.
+ 1 APPPATH\Views\onlineorder\components\header.php(54): include()
+ 2 APPPATH\Views\onlineorder\content\search\search.php(1): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:05:22 --> include_once(onlineorder/components/headercomponents/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\onlineorder\content\search\search.php on line 148.
+ 1 APPPATH\Views\onlineorder\content\search\search.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(onlineorder/components/headercomponents/footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php', 148)
+ 2 APPPATH\Views\onlineorder\content\search\search.php(148): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:06:51 --> include(views/onlineorder/components/footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\onlineorder\content\search\search.php on line 150.
+ 1 APPPATH\Views\onlineorder\content\search\search.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(views/onlineorder/components/footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php', 150)
+ 2 APPPATH\Views\onlineorder\content\search\search.php(150): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:15:03 --> Undefined variable $curl
+in FCPATH\public\assets\js\index\search_part_number.js on line 5.
+ 1 FCPATH\public\assets\js\index\search_part_number.js(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $curl', 'C:\\xampp\\htdocs\\cg\\public\\assets\\js\\index\\search_part_number.js', 5)
+ 2 APPPATH\Views\onlineorder\content\search\search.php(140): include_once('C:\\xampp\\htdocs\\cg\\public\\assets\\js\\index\\search_part_number.js')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:19:26 --> include(recommended-item.php): Failed to open stream: No such file or directory
+in APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php on line 134.
+ 1 APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(recommended-item.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\moreinfo\\moreinfo.php', 134)
+ 2 APPPATH\Views\onlineorder\content\moreinfo\moreinfo.php(134): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\moreinfo\\moreinfo.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/moreinfo/moreinfo', [], true)
+ 6 APPPATH\Controllers\MoreInfo\ProductInfoController.php(195): view('onlineorder/content/moreinfo/moreinfo', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:21:17 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddToCartController.php on line 165.
+ 1 APPPATH\Controllers\MoreInfo\AddToCartController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\MoreInfo\\AddToCartController.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:45:55 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\onlineorder\content\cart\cart.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/cart/cart', [], true)
+ 3 APPPATH\Controllers\Cart\CartController.php(20): view('onlineorder/content/cart/cart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\CartController->cart()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:46:24 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\onlineorder\content\cart\cart.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/cart/cart', [], true)
+ 3 APPPATH\Controllers\Cart\CartController.php(20): view('onlineorder/content/cart/cart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cart\CartController->cart()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 04:57:58 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\onlineorder\content\previeworder\previeworder.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/previeworder/previeworder', [], true)
+ 3 APPPATH\Controllers\Preview\PreviewController.php(20): view('onlineorder/content/previeworder/previeworder')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->preview_order()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 05:31:38 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\Search\AddToCartController.php on line 165.
+ 1 APPPATH\Controllers\Search\AddToCartController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Search\\AddToCartController.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 05:35:19 --> Unknown column 'INVOICE' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `preview_order` (`AUTOID`, `INVOICE`, `cid`, `product`, `description`, `lprice`, `qty`, `sp_price`, `price`, `discount_name`, `discount`, `totalprice`, `currency`, `discount8weeks_status`, `array_data`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `preview_order` (`AUTOID`, `INVOICE`, `cid`, `product`, `description`, `lprice`, `qty`, `sp_price`, `price`, `discount_name`, `discount`, `totalprice`, `currency`, `discount8weeks_status`, `array_data`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `preview_order` (`AUTOID`, `INVOICE`, `cid`, `product`, `description`, `lprice`, `qty`, `sp_price`, `price`, `discount_name`, `discount`, `totalprice`, `currency`, `discount8weeks_status`, `array_data`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Ordermodel.php(404): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Preview\PreviewController.php(192): App\Models\Ordermodel->insert_preview_order('3PVPNAK9VJBI9000', '47197', 'TEST2', 'TRL620D', 'Tracked Radial lift  Mini Skidsteer with 24 Hp Kubota Diesel', '42384', '1', '34547.2', '34547.2', null, '0', '34547.2', 'usd', '0', '{"@odata.context":"https://ecc842362022020802.servicebus.windows.net/myebms/MTB/odata/$metadata#ARINV/$entity","Guid":"50565033-414e-394b-564a-424939303030","AUTOID":"3PVPNAK9VJBI9000","AUTHORIZED":0.00,"BAL_CUST_C":34547.20,"BAL_CUST_P":0.00,"BAL_CUST_X":0.00,"BALANCE":0.00,"DISC_PERC":5.000000,"DISCOUNT":0.00,"OVERDUE":0.00,"PERC_MARG":0.00,"SO_BALCUST":34547.20,"SO_TAX":0.00,"TAX":0.00,"TOTAL_COST":0.00,"TOTAL_MARG":0.00,"TOTAL_PAID":0.00,"TOTAL_S_SO":34547.20,"TOTAL_SO":34547.20,"TOTAL_W":0.00,"TTLPROCPMT":0.00,"TOTAL":0.00,"FREIGHT":0.00,"HANDLING":0.00,"SHIPPING":0.00,"SUBTOTAL":0.00,"TOTAL_ITEM":0.00,"CREA_DATE":"2023-06-28T00:00:00Z","GRACE":"10  days after due date","STATUS":"U","USER_NAME":"APIACCESS","TAX_TABLE":"No Tax","ADDRESS1":"43211 Testy North","ADDRESS2":"","C_EMAIL":"","C_PHONE":"","CCNTCT_AID":"86DFITOIHDBREL70","CHARGE":"Net  30 days","CHECK_DATE":null,"CHECK_NO":"","CITY":"Test City","CNTCT_AID":"TQTDOM1IHDBREL70","COUNTRY":"USA","DIS_DATE":"2023-07-08T00:00:00Z","DISCOUN":"5     % paid in 10  days","DOWN_PAY":"23000-000","DUE_DATE":"2023-07-28T00:00:00Z","E_DATE":"2023-06-28T00:00:00Z","EC_RPT_ERR":"","EC_RPT_RUN":false,"EMAIL":"","IADDRESS":"789 Tested Ave. , Testaco, TX 55556","ID":"TEST2","IDCHARGE":"1CHARGE","IDDISCOUNT":"1DSCOUNT","IN_LEVEL":"U60","INV_DATE":"2023-06-28T00:00:00Z","INVOICE":"47197","MAN_TAX":false,"NAME":"Test LLC. US","PHONE":"","PROCESS":"Default","STATE":"TX","TERMS":"Charge","TRACK_NUMS":"[]","ZIP":"12345","EXTERNALID":"","WAREHOUSE":"MAIN","C_ADDRESS1":"789 Tested Ave.","C_ADDRESS2":"","C_CITY":"Testaco","C_COUNTRY":"USA","C_ID":"TEST2_S1","C_NAME":"Test LLC. US","C_STATE":"TX","C_ZIP":"55556","DEF_DEPT":"","DESCR":"Tracked Radial lift  Mini Skidsteer with 24 Hp Kub","INTERNALNT":"","MEMO":"","PO_NO":"","SALESMAN":"Neil Thorne 31","SALESMAN_Field":"Neil Thorne 31","SHIP_DATE":"2023-06-28T00:00:00Z","SHIP_VIA":"Delivery","TO_B_SENT":false}')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 05:46:26 --> Unknown column 'INVOICE' in 'field list'
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('INSERT INTO `preview_order` (`AUTOID`, `INVOICE`, `cid`, `product`, `description`, `lprice`, `qty`, `sp_price`, `price`, `discount_name`, `discount`, `totalprice`, `currency`, `discount8weeks_status`, `array_data`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `preview_order` (`AUTOID`, `INVOICE`, `cid`, `product`, `description`, `lprice`, `qty`, `sp_price`, `price`, `discount_name`, `discount`, `totalprice`, `currency`, `discount8weeks_status`, `array_data`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(940): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `preview_order` (`AUTOID`, `INVOICE`, `cid`, `product`, `description`, `lprice`, `qty`, `sp_price`, `price`, `discount_name`, `discount`, `totalprice`, `currency`, `discount8weeks_status`, `array_data`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', [])
+ 4 APPPATH\Models\Ordermodel.php(404): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\Preview\PreviewController.php(192): App\Models\Ordermodel->insert_preview_order('9C6BFORGVJBI9000', '47199', 'TEST2', 'TRL620D', 'Tracked Radial lift  Mini Skidsteer with 24 Hp Kubota Diesel', '42384', '1', '34547.2', '34547.2', null, '0', '34547.2', 'usd', '0', '{"@odata.context":"https://ecc842362022020802.servicebus.windows.net/myebms/MTB/odata/$metadata#ARINV/$entity","Guid":"42364339-4f46-4752-564a-424939303030","AUTOID":"9C6BFORGVJBI9000","AUTHORIZED":0.00,"BAL_CUST_C":34547.20,"BAL_CUST_P":0.00,"BAL_CUST_X":0.00,"BALANCE":0.00,"DISC_PERC":5.000000,"DISCOUNT":0.00,"OVERDUE":0.00,"PERC_MARG":0.00,"SO_BALCUST":34547.20,"SO_TAX":0.00,"TAX":0.00,"TOTAL_COST":0.00,"TOTAL_MARG":0.00,"TOTAL_PAID":0.00,"TOTAL_S_SO":34547.20,"TOTAL_SO":34547.20,"TOTAL_W":0.00,"TTLPROCPMT":0.00,"TOTAL":0.00,"FREIGHT":0.00,"HANDLING":0.00,"SHIPPING":0.00,"SUBTOTAL":0.00,"TOTAL_ITEM":0.00,"CREA_DATE":"2023-06-28T00:00:00Z","GRACE":"10  days after due date","STATUS":"U","USER_NAME":"APIACCESS","TAX_TABLE":"No Tax","ADDRESS1":"43211 Testy North","ADDRESS2":"","C_EMAIL":"","C_PHONE":"","CCNTCT_AID":"86DFITOIHDBREL70","CHARGE":"Net  30 days","CHECK_DATE":null,"CHECK_NO":"","CITY":"Test City","CNTCT_AID":"TQTDOM1IHDBREL70","COUNTRY":"USA","DIS_DATE":"2023-07-08T00:00:00Z","DISCOUN":"5     % paid in 10  days","DOWN_PAY":"23000-000","DUE_DATE":"2023-07-28T00:00:00Z","E_DATE":"2023-06-28T00:00:00Z","EC_RPT_ERR":"","EC_RPT_RUN":false,"EMAIL":"","IADDRESS":"789 Tested Ave. , Testaco, TX 55556","ID":"TEST2","IDCHARGE":"1CHARGE","IDDISCOUNT":"1DSCOUNT","IN_LEVEL":"U60","INV_DATE":"2023-06-28T00:00:00Z","INVOICE":"47199","MAN_TAX":false,"NAME":"Test LLC. US","PHONE":"","PROCESS":"Default","STATE":"TX","TERMS":"Charge","TRACK_NUMS":"[]","ZIP":"12345","EXTERNALID":"","WAREHOUSE":"MAIN","C_ADDRESS1":"789 Tested Ave.","C_ADDRESS2":"","C_CITY":"Testaco","C_COUNTRY":"USA","C_ID":"TEST2_S1","C_NAME":"Test LLC. US","C_STATE":"TX","C_ZIP":"55556","DEF_DEPT":"","DESCR":"Tracked Radial lift  Mini Skidsteer with 24 Hp Kub","INTERNALNT":"","MEMO":"","PO_NO":"","SALESMAN":"Neil Thorne 31","SALESMAN_Field":"Neil Thorne 31","SHIP_DATE":"2023-06-28T00:00:00Z","SHIP_VIA":"Delivery","TO_B_SENT":false}')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->save_order_details()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:10:31 --> Call to undefined method App\Models\Ordermodel::getebms_order_main()
+in APPPATH\Views\onlineorder\components\navbar.php on line 50.
+ 1 APPPATH\Views\onlineorder\components\header.php(51): include()
+ 2 APPPATH\Views\onlineorder\content\search\search.php(1): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:12:24 --> Call to undefined method App\Models\Ordermodel::getgetTotal()
+in APPPATH\Views\onlineorder\components\navbar.php on line 74.
+ 1 APPPATH\Views\onlineorder\components\header.php(51): include()
+ 2 APPPATH\Views\onlineorder\content\search\search.php(1): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\components\\header.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\search\\search.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/search/search', [], true)
+ 6 APPPATH\Controllers\Order.php(19): view('onlineorder/content/search/search')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:15:36 --> Call to undefined method App\Models\Ordermodel::getebms_order_main()
+in APPPATH\Views\order\header.php on line 286.
+ 1 APPPATH\Views\order\myordersitemsview.php(2): include_once()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myordersitemsview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 5 APPPATH\Controllers\Header\HeaderController.php(210): view('order/myordersitemsview')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->my_orders_itemsview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:17:35 --> Call to undefined method App\Models\Ordermodel::getebms_order_main()
+in APPPATH\Views\order\header.php on line 286.
+ 1 APPPATH\Views\order\myordersitemsview.php(2): include_once()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myordersitemsview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 5 APPPATH\Controllers\Header\HeaderController.php(210): view('order/myordersitemsview')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->my_orders_itemsview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:18:18 --> Call to undefined method App\Models\Ordermodel::getebms_order_main()
+in APPPATH\Views\order\header.php on line 286.
+ 1 APPPATH\Views\order\myordersitemsview.php(2): include_once()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myordersitemsview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 5 APPPATH\Controllers\Header\HeaderController.php(210): view('order/myordersitemsview')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->my_orders_itemsview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:18:33 --> Call to undefined method App\Models\Ordermodel::getebms_order_main()
+in APPPATH\Views\order\header.php on line 286.
+ 1 APPPATH\Views\order\myordersitemsview.php(2): include_once()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myordersitemsview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 5 APPPATH\Controllers\Header\HeaderController.php(210): view('order/myordersitemsview')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->my_orders_itemsview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:18:58 --> Call to undefined method App\Models\Ordermodel::getebms_order_main()
+in APPPATH\Views\order\header.php on line 286.
+ 1 APPPATH\Views\order\myordersitemsview.php(2): include_once()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myordersitemsview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 5 APPPATH\Controllers\Header\HeaderController.php(210): view('order/myordersitemsview')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->my_orders_itemsview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:19:52 --> Call to undefined method App\Models\Ordermodel::getgetTotal()
+in APPPATH\Views\order\header.php on line 310.
+ 1 APPPATH\Views\order\myordersitemsview.php(2): include_once()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\order\\myordersitemsview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('order/myordersitemsview', [], true)
+ 5 APPPATH\Controllers\Header\HeaderController.php(210): view('order/myordersitemsview')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Header\HeaderController->my_orders_itemsview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Header\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:45:11 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\Search\AddToCartController.php on line 167.
+ 1 APPPATH\Controllers\Search\AddToCartController.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Search\\AddToCartController.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:45:59 --> Class "App\Controllers\Search\Moreinfo" not found
+in APPPATH\Controllers\Search\AddToCartController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Search\AddToCartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:48:29 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\Search\AddToCartController.php on line 163.
+ 1 APPPATH\Controllers\Search\AddToCartController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Search\\AddToCartController.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:56:53 --> Class "App\Controllers\Search\CartAppend" not found
+in APPPATH\Controllers\Search\CartAppendController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Search\CartAppendController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:56:59 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\Search\AddToCartController.php on line 163.
+ 1 APPPATH\Controllers\Search\AddToCartController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Search\\AddToCartController.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 07:57:13 --> Class "App\Controllers\Search\CartAppend" not found
+in APPPATH\Controllers\Search\CartAppendController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Search\CartAppendController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 09:22:56 --> Class "App\Controllers\Search\Ordermodel" not found
+in APPPATH\Controllers\Search\SearchController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Search\SearchController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 09:22:58 --> Class "App\Controllers\Search\Ordermodel" not found
+in APPPATH\Controllers\Search\SearchController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Search\SearchController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 09:29:02 --> Class "App\Controllers\Search\UpdateCart" not found
+in APPPATH\Controllers\Search\UpdateCartController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Search\UpdateCartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 09:46:04 --> Class "App\Models\MoreInfo\AddRecommendedProduct" not found
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Moreinfo\AddRecommendedProductController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 09:46:55 --> Class "App\Models\MoreInfo\AddRecommendedProduct" not found
+in APPPATH\Controllers\MoreInfo\AddRecommendedProductController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Moreinfo\AddRecommendedProductController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 10:41:13 --> Undefined array key "auto_id"
+in APPPATH\Controllers\Preview\PreviewController.php on line 25.
+ 1 APPPATH\Controllers\Preview\PreviewController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "auto_id"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Preview\\PreviewController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->billprint()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 10:47:11 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\onlineorder\content\billprint\billprint.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/billprint/billprint', [], true)
+ 3 APPPATH\Controllers\Preview\PreviewController.php(33): view('onlineorder/content/billprint/billprint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->billprint()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 10:47:28 --> Undefined variable $data
+in APPPATH\Views\onlineorder\content\billprint\billprint.php on line 5.
+ 1 APPPATH\Views\onlineorder\content\billprint\billprint.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\billprint\\billprint.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\billprint\\billprint.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/billprint/billprint', [], true)
+ 5 APPPATH\Controllers\Preview\PreviewController.php(33): view('onlineorder/content/billprint/billprint', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->billprint()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 11:14:07 --> Undefined variable $auto_id
+in APPPATH\Views\onlineorder\content\billprint\billprint.php on line 124.
+ 1 APPPATH\Views\onlineorder\content\billprint\billprint.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $auto_id', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\billprint\\billprint.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\billprint\\billprint.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/billprint/billprint', [], true)
+ 5 APPPATH\Controllers\Preview\PreviewController.php(33): view('onlineorder/content/billprint/billprint', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->billprint()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 11:15:10 --> Non-static method App\Models\MyordersView::getfetch_disc_item_row() cannot be called statically
+in APPPATH\Views\onlineorder\content\billprint\billprint.php on line 131.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/billprint/billprint', [], true)
+ 4 APPPATH\Controllers\Preview\PreviewController.php(33): view('onlineorder/content/billprint/billprint', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->billprint()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 11:15:33 --> Undefined variable $Auto_id
+in APPPATH\Views\onlineorder\content\billprint\billprint.php on line 205.
+ 1 APPPATH\Views\onlineorder\content\billprint\billprint.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Auto_id', 'C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\billprint\\billprint.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cg\\app\\Views\\onlineorder\\content\\billprint\\billprint.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('onlineorder/content/billprint/billprint', [], true)
+ 5 APPPATH\Controllers\Preview\PreviewController.php(33): view('onlineorder/content/billprint/billprint', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Preview\PreviewController->billprint()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Preview\PreviewController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 11:19:17 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\Search\AddToCartController.php on line 163.
+ 1 APPPATH\Controllers\Search\AddToCartController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\Search\\AddToCartController.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Search\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 12:21:02 --> Undefined variable $disc_per_item
+in APPPATH\Controllers\MoreInfo\AddToCartController.php on line 163.
+ 1 APPPATH\Controllers\MoreInfo\AddToCartController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disc_per_item', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\MoreInfo\\AddToCartController.php', 163)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\AddToCartController->add_to_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\AddToCartController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 12:34:05 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Models\Moreinfo.php on line 794.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Models\\Moreinfo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moreinfo')
+ 3 APPPATH\Controllers\Order.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moreinfo')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Order->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 12:34:44 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Models\Moreinfo.php on line 794.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Models\\Moreinfo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moreinfo')
+ 3 APPPATH\Controllers\Order.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moreinfo')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Order->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 12:34:51 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Models\Moreinfo.php on line 794.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Models\\Moreinfo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moreinfo')
+ 3 APPPATH\Controllers\Order.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moreinfo')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Order->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 12:35:19 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Models\Moreinfo.php on line 794.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cg\\app\\Models\\Moreinfo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Moreinfo')
+ 3 APPPATH\Controllers\Order.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Moreinfo')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Order->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 12:36:11 --> Undefined array key "Part_Number"
+in APPPATH\Controllers\MoreInfo\ProductInfoController.php on line 66.
+ 1 APPPATH\Controllers\MoreInfo\ProductInfoController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Part_Number"', 'C:\\xampp\\htdocs\\cg\\app\\Controllers\\MoreInfo\\ProductInfoController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Moreinfo\ProductInfoController->more_information()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moreinfo\ProductInfoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
